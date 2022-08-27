@@ -10,6 +10,7 @@ import Documents from "../assets/draft.svg";
 import PowerOff from "../assets/power-off-solid.svg";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
+import Dashboard from "../Pages/Dashboard";
 
 const Container = styled.div`
   position: fixed;
@@ -25,7 +26,7 @@ const Container = styled.div`
 `;
 
 const Button = styled.button`
-  background-color: var(--black);
+  background-color: black;
   border: none;
   width: 2.5rem;
   height: 2.5rem;
@@ -42,7 +43,7 @@ const Button = styled.button`
   &::before,
   &::after {
     content: "";
-    background-color: var(--white);
+    background-color: white;
     height: 2px;
     width: 1rem;
     position: absolute;
@@ -61,7 +62,7 @@ const Button = styled.button`
 `;
 
 const SidebarContainer = styled.div`
-  background-color: var(--black);
+  background-color: black;
   width: 3.5rem;
   height: 80vh;
   margin-top: 1rem;
@@ -86,12 +87,12 @@ const Logo = styled.div`
 `;
 
 const SlickBar = styled.ul`
-  color: var(--white);
+  color: white;
   list-style: none;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--black);
+  background-color: black;
 
   padding: 2rem 0;
 
@@ -106,7 +107,7 @@ const SlickBar = styled.ul`
 
 const Item = styled(NavLink)`
   text-decoration: none;
-  color: var(--white);
+  color: white;
   width: 100%;
   padding: 1rem 0;
   cursor: pointer;
@@ -151,8 +152,8 @@ const Profile = styled.div`
   justify-content: center;
   margin-left: ${(props) => (props.clicked ? "9rem" : "0")};
 
-  background-color: var(--black);
-  color: var(--white);
+  background-color: black;
+  color: white;
 
   transition: all 0.3s ease;
 
@@ -190,7 +191,7 @@ const Name = styled.div`
   a {
     font-size: 0.8rem;
     text-decoration: none;
-    color: var(--grey);
+    color: grey;
 
     &:hover {
       text-decoration: underline;
@@ -241,8 +242,8 @@ const Sidebar = () => {
             activeClassName="active"
             to="/"
           >
-            <img src={Home} alt="Home" />
-            <Text clicked={click}>Home</Text>
+            <img src={Home} alt="Dashboard" />
+            <Text clicked={click}>Dashboard</Text>
           </Item>
           <Item
             onClick={() => setClick(false)}

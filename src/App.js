@@ -1,5 +1,5 @@
 import {  Switch, useLocation } from "react-router";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./components/Dashboard";
 import Dashboard from "./components/Pages/Dashboard";
 import Team from "./components/Pages/Team";
 import Calender from "./components/Pages/Calender";
@@ -21,8 +21,8 @@ function App() {
         <Route path="team" element={<Team />} />
         <Route path="calender" element={<Calender />} />
         <Route path="documents" element={<Documents />} />
-        <Route path="rojects" element={<Projects />} />
-
+        <Route path="projects" element={<Projects />} />
+        <Route path="dashboard" element={<Dashboard />} />
 
 
 
