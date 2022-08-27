@@ -1,7 +1,9 @@
 import MotionHoc from "./MotionHoc";
-
+import Sidebar from "../Dashboard";
 const CalenderComponent = () => {
-  return <h1>Calender</h1>;
+  return (
+    <Sidebar/>
+  );
 };
 
 const Calender = MotionHoc(CalenderComponent);

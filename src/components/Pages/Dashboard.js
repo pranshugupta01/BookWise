@@ -1,7 +1,8 @@
 import MotionHoc from "./MotionHoc";
-
+import Sidebar from "../Dashboard";
 const HomeComponent = () => {
-  return <h1>Home</h1>;
+  return (
+  <Sidebar />);
 };
 
 const Dashboard = MotionHoc(HomeComponent);

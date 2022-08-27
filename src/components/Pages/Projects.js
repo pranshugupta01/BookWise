@@ -1,7 +1,10 @@
 import MotionHoc from "./MotionHoc";
+import Sidebar from "../Dashboard";
 
 const ProjectsComponent = () => {
-  return <h1>Projects</h1>;
+  return(
+    <Sidebar/>
+  );
 };
 
 const Projects = MotionHoc(ProjectsComponent);
