@@ -132,7 +132,7 @@ const Home = () => {
                                         </div> 
 < br />< br />
                                         <div class="flex space-x-2 justify-center">
-                                        <button onclick="location.href=https://www.google.com" class="name noselect">Start Your New Reading Journey</button>
+                                        <button onclick="location.href=https://www.google.com" class="namenoselect">Start Your New Reading Journey</button>
 </div>
 
 {/* ----------------------------------------------------------------------- */}
