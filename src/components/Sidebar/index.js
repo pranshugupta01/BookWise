@@ -286,7 +286,7 @@ const Sidebar = () => {
           />
           <Details clicked={profileClick}>
             <Name>
-              <h4>Jhon&nbsp;Doe</h4>
+              <h4>Jhon &nbsp;Doe</h4>
               <a href="/#">view&nbsp;profile</a>
             </Name>
 
