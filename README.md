@@ -1,5 +1,5 @@
 # BOOKWISE
-##It is a NGO-focused library management system powered by NextJS, Nodejs and MongoDB . It leverages machine learning to oer
+It is a NGO-focused library management system powered by NextJS, Nodejs and MongoDB . It leverages machine learning to oer
 personalized book recommendations and includes a dedicated notes section. With ecient cataloging and user management, BookWise enhances the library experience for both students and administrators.
 
 # Getting Started with Create React App
